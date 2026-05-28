@@ -2,6 +2,7 @@
 
 > Advanced audio control for any browser tab — volume boost up to 1000%, 8-band graphic equalizer, and real-time frequency visualizer.
 
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-6366f1?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/) *(currently under review)*
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## ✨ Features
