@@ -6,6 +6,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+![Preview](assets/preview.png)
+
 ## ✨ Features
 
 - **Volume Boost** — Control any tab from Mute (0%) to **1000%**
