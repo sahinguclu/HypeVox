@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HypeVox</title>
+  <link href="theme.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="bar">
+    <img class="bar__logo" src="assets/HV-logo.png" alt="HypeVox">
+    <span class="bar__title">HypeVox</span>
+    <button class="bar__btn" id="btnLang" title="Language">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    </button>
+    <button class="bar__btn" id="btnDark" title="Dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <button class="bar__btn bar__btn--close" id="btnClose" title="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </header>
+
+  <!-- ── Language Dropdown ── -->
+  <section class="lang-drop hidden" id="langDrop">
+    <h3 class="lang-drop__title">Language</h3>
+    <select class="eq__select" id="langSelect"></select>
+  </section>
+
+  <!-- ── Volume ── -->
+  <section class="vol">
+    <div class="vol__display"><span class="vol__num" id="volNum">100</span><span class="vol__pct">%</span></div>
+    <input type="range" class="vol__slider" id="volSlider" min="0" max="40" value="14" autofocus>
+    <div class="vol__ticks"><span id="lblMute">Mute</span><span id="lblMax">1000%</span></div>
+    <div class="vol__tag" id="volTag">● Default</div>
+  </section>
+
+  <!-- ── Volume Presets ── -->
+  <div class="vpresets">
+    <button class="vbtn" data-v="0">Mute</button>
+    <button class="vbtn" data-v="50">50</button>
+    <button class="vbtn active" data-v="100">100</button>
+    <button class="vbtn" data-v="150">150</button>
+    <button class="vbtn" data-v="200">200</button>
+    <button class="vbtn" data-v="300">300</button>
+    <button class="vbtn" data-v="500">500</button>
+    <button class="vbtn" data-v="750">750</button>
+    <button class="vbtn" data-v="1000">1K</button>
+  </div>
+
+  <!-- ── Sound Profile ── -->
+  <section class="eq">
+    <h3 class="eq__title" id="lblSoundProfile">Sound Profile</h3>
+    <select class="eq__select" id="eqSelect">
+      <option value="off" selected>Off</option>
+      <option value="bass">Bass Boost</option>
+      <option value="voice">Voice Enhance</option>
+      <option value="treble">Treble Boost</option>
+      <option value="loud">Loudness</option>
+      <option value="podcast">Podcast</option>
+      <option value="rock">Rock</option>
+      <option value="pop">Pop</option>
+      <option value="jazz">Jazz</option>
+      <option value="hiphop">Hip-Hop</option>
+      <option value="classical">Classical</option>
+      <option value="electronic">Electronic</option>
+    </select>
+  </section>
+
+  <!-- ── Actions ── -->
+  <section class="acts">
+    <button class="act hidden" id="btnReset">↺ Reset 100%</button>
+  </section>
+
+  <!-- ── Tabs ── -->
+  <section class="tabs">
+    <h3 class="tabs__title" id="tabsTitle">Tabs playing audio</h3>
+    <div class="tabs__list" id="tabsList"></div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="foot">
+    <span><span id="lblMadeBy">Made by</span> <a href="https://github.com/sahinguclu" target="_blank">Şahin Güçlü</a> <span id="lblWith">with</span> <span class="foot__heart">❤️</span></span>
+    <a class="foot__link" href="https://github.com/sahinguclu/HypeVox" target="_blank" id="lblSource">Source Code</a>
+  </footer>
+
+  <template id="tplTab"><a class="trow" href="#"><img class="trow__icon"><span class="trow__name"></span></a></template>
+
+  <script src="languages.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>
