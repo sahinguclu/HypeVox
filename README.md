@@ -1,6 +1,6 @@
 # 🎛️ HypeVox
 
-> Advanced audio control for any browser tab — volume boost up to 1000%, 8-band graphic equalizer, and real-time frequency visualizer.
+> Audio control for any browser tab — volume up to 1000%, 12 sound profiles, 54 languages, and zero trackers.
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-6366f1?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/) *(currently under review)*
 
@@ -9,14 +9,12 @@
 ## ✨ Features
 
 - **Volume Boost** — Control any tab from Mute (0%) to **1000%**
-- **8-Band Graphic EQ** — Vertical sliders per band (63Hz–8kHz, ±12dB)
-- **Quick Presets** — Flat, Bass, Voice, Treble, Loud
-- **Live Visualizer** — Real-time frequency spectrum
-- **Domain Memory** — Remembers your volume per website
-- **Dark Mode** — Toggle between light and dark
-- **Keyboard Shortcuts** — `0`–`8` for landmarks, arrows for fine control
+- **12 Sound Profiles** — Equalizer presets: Bass, Voice, Treble, Loudness, Podcast, Rock, Pop, Jazz, Hip-Hop, Classical, Electronic
+- **Dark Mode** — Toggle between light and dark, preference saved
+- **Keyboard Shortcuts** — `0`–`8` for landmarks, arrow keys for fine control
 - **Audible Tabs** — See and switch to any tab playing audio
-- **Zero Trackers** — No analytics, no external calls
+- **54 Languages** — Full UI translations: English, Turkish, Spanish, French, German, Russian, Chinese, Japanese, Sinhala, and more
+- **Zero Trackers** — No analytics, no telemetry, no external calls
 
 ### Volume Landmarks
 
@@ -43,19 +41,30 @@ HypeVox/
 ├── panel.html             # Popup interface
 ├── panel.js               # Popup controller
 ├── theme.css              # Stylesheet (light/dark)
-├── languages.js           # 35 language translations
+├── languages.js           # 54 language UI translations
 ├── assets/                # Icons & logo
-├── _locales/en/           # Chrome i18n strings
+│   ├── HV-logo.png        # App logo
+│   ├── icon-16.png        # Toolbar icons
+│   ├── icon-19.png        # (16, 19, 32, 38, 48, 128)
+│   └── ...
+├── _locales/              # Chrome i18n (54 languages)
+│   ├── en/                # English
+│   └── ...                # (tr, de, fr, es, ru, ja, zh_CN, etc.)
+├── PRIVACY.md             # Privacy policy
 ├── LICENSE                # MIT
 └── README.md
 ```
 
 ## 🚀 Install
 
-1. Open `chrome://extensions`
-2. Enable **Developer mode**
-3. Click **Load unpacked**
-4. Select the `HypeVox` folder
+1. Download the latest `HypeVox.zip` from [Releases](https://github.com/sahinguclu/HypeVox/releases)
+2. Unzip the file to a folder on your computer
+3. Open `chrome://extensions`
+4. Enable **Developer mode** (top-right toggle)
+5. Click **Load unpacked**
+6. Select the unzipped `HypeVox` folder
+
+> ⚠️ **Note:** Installing via developer mode means the extension **won't auto-update**. Check the Releases page periodically for new versions and repeat the steps above to update.
 
 ## 🛠 Tech
 
