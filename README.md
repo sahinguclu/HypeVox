@@ -1,20 +1,22 @@
-# 🎛️ HypeVox
+# HypeVox
 
-> Audio control for any browser tab — volume up to 1000%, 12 sound profiles, 54 languages, and zero trackers.
+> Audio control for any browser tab -- volume up to 1000%, 12 sound profiles, 54 languages, and zero trackers.
 
-**Check out the extension here:** [https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek](https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek) - compatible with Chrome, Brave, Edge, and every Chromium-based browser.
+**Check out the extension here:** [https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek](https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek) -- compatible with Chrome, Brave, Edge, and every Chromium-based browser.
 
 ![Preview](assets/preview.png)
 
-## ✨ Features
+---
 
-- **Volume Boost** — Control any tab from Mute (0%) to **1000%**
-- **12 Sound Profiles** — Equalizer presets: Bass, Voice, Treble, Loudness, Podcast, Rock, Pop, Jazz, Hip-Hop, Classical, Electronic
-- **Dark Mode** — Toggle between light and dark, preference saved
-- **Keyboard Shortcuts** — `0`–`8` for landmarks, arrow keys for fine control
-- **Audible Tabs** — See and switch to any tab playing audio
-- **54 Languages** — Full UI translations: English, Turkish, Spanish, French, German, Russian, Chinese, Japanese, Sinhala, and more
-- **Zero Trackers** — No analytics, no telemetry, no external calls
+## Features
+
+- Volume Boost -- Control any tab from Mute (0%) to 1000%
+- 12 Sound Profiles -- Equalizer presets: Bass, Voice, Treble, Loudness, Podcast, Rock, Pop, Jazz, Hip-Hop, Classical, Electronic
+- Dark Mode -- Toggle between light and dark; preference saved
+- Keyboard Shortcuts -- `0`-`8` for landmarks, arrow keys for fine control
+- Audible Tabs -- See and switch to any tab playing audio
+- 54 Languages -- Full UI translations: English, Turkish, Spanish, French, German, Russian, Chinese, Japanese, Sinhala, and more
+- Zero Trackers -- No analytics, no telemetry, no external calls
 
 ### Volume Landmarks
 
@@ -22,7 +24,7 @@
 |---|---|
 | `0` | Mute (0%) |
 | `1` | 50% |
-| `2` | **100%** (Default) |
+| `2` | 100% (Default) |
 | `3` | 150% |
 | `4` | 200% |
 | `5` | 300% |
@@ -30,7 +32,9 @@
 | `7` | 750% |
 | `8` | 1000% |
 
-## 📁 Structure
+---
+
+## Structure
 
 ```
 HypeVox/
@@ -55,26 +59,32 @@ HypeVox/
 └── README.md
 ```
 
-## 🚀 Install
+---
+
+## Install
 
 1. Download the latest `HypeVox.zip` from [Releases](https://github.com/sahinguclu/HypeVox/releases)
 2. Unzip the file to a folder on your computer
 3. Open `chrome://extensions`
-4. Enable **Developer mode** (top-right toggle)
-5. Click **Load unpacked**
+4. Enable Developer mode (top-right toggle)
+5. Click Load unpacked
 6. Select the unzipped `HypeVox` folder
 
-> ⚠️ **Note:** Installing via developer mode means the extension **won't auto-update**. Check the Releases page periodically for new versions and repeat the steps above to update.
+> Note: Installing via developer mode means the extension will not auto-update. Check the Releases page periodically for new versions and repeat the steps above to update.
 
-## 🛠 Tech
+---
+
+## Tech
 
 - Manifest V3
 - Web Audio API
-- Vanilla JavaScript — zero dependencies
+- Vanilla JavaScript -- zero dependencies
 - CSS custom properties (light/dark)
 
-## 📄 License
+---
 
-MIT © [Şahin Güçlü](https://github.com/sahinguclu) - see [LICENSE](LICENSE) for details.
+## License
+
+MIT -- [Sahin Guclu](https://github.com/sahinguclu) -- see [LICENSE](LICENSE) for details.
 
 [Source Code](https://github.com/sahinguclu/HypeVox)
