@@ -2,9 +2,7 @@
 
 > Audio control for any browser tab — volume up to 1000%, 12 sound profiles, 54 languages, and zero trackers.
 
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-6366f1?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/) *(currently under review)*
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+**Check out the extension here:** [https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek](https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek) - compatible with Chrome, Brave, Edge, and every Chromium-based browser.
 
 ![Preview](assets/preview.png)
 
@@ -77,6 +75,6 @@ HypeVox/
 
 ## 📄 License
 
-MIT © [Şahin Güçlü](https://github.com/sahinguclu)
+MIT © [Şahin Güçlü](https://github.com/sahinguclu) - see [LICENSE](LICENSE) for details.
 
 [Source Code](https://github.com/sahinguclu/HypeVox)
