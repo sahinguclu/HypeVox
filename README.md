@@ -83,7 +83,7 @@ HypeVox/
 
 ---
 
-## License
+## License-
 
 MIT -- [Sahin Guclu](https://github.com/sahinguclu) -- see [LICENSE](LICENSE) for details.
 
